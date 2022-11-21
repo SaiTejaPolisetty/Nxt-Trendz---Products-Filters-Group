@@ -173,11 +173,15 @@ class AllProductsSection extends Component {
   )
 
   renderNoProducts = () => (
-    <div>
+    <div className="no-products-view">
       <img
         src="https://assets.ccbp.in/frontend/react-js/nxt-trendz/nxt-trendz-no-products-view.png"
         alt="no products"
       />
+      <h1 className="no-products-heading">No Products Found</h1>
+      <p className="no-products-Found-caption">
+        We could not find any products.Try other filters.
+      </p>
     </div>
   )
 

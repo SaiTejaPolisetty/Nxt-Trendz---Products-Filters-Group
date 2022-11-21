@@ -30,7 +30,7 @@
 .category-btn {
   font-size: 15px;
   color: #64748b;
-  margin: 10px 0px;
+  margin: 5px 0px;
 }
 .ratings-list {
   list-style-type: none;
@@ -80,4 +80,5 @@
   background-color: transparent;
   border: none;
   outline: none;
+  width: 100%;
 }
